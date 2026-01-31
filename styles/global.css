@@ -38,40 +38,40 @@ button {
 }
 
 address {
-  font-style: normal;
   max-width: 240px;
   min-height: 98px;
-  text-align: left;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
   line-height: 24.3px;
+  text-align: left;
 }
 
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 0 50px 0 50px;
   min-height: 293px;
-  font-size: 18px;
+  padding: 0 50px 0 50px;
   font-weight: 400;
+  font-size: 18px;
 }
 
 .cover {
-  z-index: 0;
   position: relative;
-  min-height: 757px;
-  text-transform: uppercase;
-  background-image: url('../images/cover.jpg');
-  background-size: cover;
-  background-position: center;
-  color: rgba(255, 255, 255, 1);
-  letter-spacing: 0.3em;
-  margin-bottom: 180px;
-  padding: 165px 50px 50px 50px;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 757px;
+  margin-bottom: 180px;
+  padding: 165px 50px 50px 50px;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  background-image: url('../images/cover.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .overlay {
@@ -89,26 +89,26 @@ address {
 .lots {
   display: flex;
   flex-direction: column;
-  min-height: 723px;
   justify-content: space-between;
-  margin-left: 24px;
+  min-height: 723px;
   margin-right: 24px;
   margin-bottom: 120px;
+  margin-left: 24px;
 }
 
 .about {
-  min-height: 595px;
-  margin-left: 24px;
-  margin-right: 24px;
   display: grid;
   grid-template-columns: 334px 1fr;
+  min-height: 595px;
+  margin-right: 24px;
   margin-bottom: 180px;
+  margin-left: 24px;
 }
 
 .footer {
   display: grid;
-  min-height: 180px;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  min-height: 180px;
   text-align: center;
 }
